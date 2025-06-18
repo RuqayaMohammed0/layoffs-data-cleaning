@@ -52,5 +52,4 @@ The dataset covers global layoffs, including info on companies, locations, indus
 -Writing clear, commented SQL scripts to explain every step
 
 
-
 ---
