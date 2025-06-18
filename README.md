@@ -51,5 +51,7 @@ The dataset covers global layoffs, including info on companies, locations, indus
 -How to clean messy real-world data in SQL
 -Writing clear, commented SQL scripts to explain every step
 
+## 📬 Contact Me
+- **LinkedIn**: Ruqaya Mohammed
+- URL: http://www.linkedin.com/in/ruqaya-sql
 
----
