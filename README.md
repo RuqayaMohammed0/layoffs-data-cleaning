@@ -54,4 +54,5 @@ The dataset covers global layoffs, including info on companies, locations, indus
 ## 📬 Contact Me
 - **LinkedIn**: Ruqaya Mohammed
 - URL: http://www.linkedin.com/in/ruqaya-sql
+
 -Email: mm.rr12345.com@gmail.com 
