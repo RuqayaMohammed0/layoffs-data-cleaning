@@ -11,7 +11,7 @@ so the data is ready for real analysis.
 
 ##About This Project
 
-This cleaning project is part of the 'Alex The Analyst SQL Bootcamp',
+This cleaning project is part of the 'Alex The Analyst Bootcamp',
  where I sharpened my skills on real-world datasets.
 It helped me get hands-on experience with SQL data cleaning techniques
 
