@@ -1,58 +1,68 @@
+# 🧼 Layoff Data Cleaning for EDA (SQL Project)
 
-Layoff Data Cleaning for EDA
+---
 
+## 📌 Overview
 
-##Overview
+This project focuses on cleaning a messy global layoff dataset from Kaggle to prepare it for **Exploratory Data Analysis (EDA)**.  
+The goal was to fix duplicates, standardize data formats, handle missing values, and tidy up the structure — so the data is ready for real analysis.
 
-This project focuses on cleaning a messy global layoff dataset from Kaggle to prepare it for Exploratory Data Analysis (EDA).
-The goal was to fix duplicates, standardize data formats, handle missing values, and tidy up columns — 
-so the data is ready for real analysis.
+---
 
+## 📁 About This Project
 
-##About This Project
+This cleaning project is part of the **Alex The Analyst Bootcamp**, where I practiced using **SQL to clean real-world datasets**.
 
-This cleaning project is part of the 'Alex The Analyst Bootcamp',
- where I sharpened my skills on real-world datasets.
-It helped me get hands-on experience with SQL data cleaning techniques
+It helped me sharpen my hands-on skills with data preparation and gave me confidence working with messy, unstructured data.
 
+---
 
+## 🗂️ Dataset
 
-##Dataset
+- **Source:** [Layoffs 2022 Dataset on Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
+- **Type:** Global layoffs, 2020–2022
+- **Includes:** Company name, location, industry, total laid off, percentage laid off, funding raised, stage, and date
 
-Source: Layoffs 2022 Dataset on Kaggle
-The dataset covers global layoffs, including info on companies, locations, industries, dates, and layoff numbers.
+---
 
+## 🔧 What I Did
 
-##What I Did
+- ✅ Created a **safe staging table** to protect the original dataset
+- ✅ **Removed duplicates** using `ROW_NUMBER()` and CTEs
+- ✅ **Standardized text fields** (company, industry, location)
+- ✅ **Converted date column** from text to SQL `DATE` format
+- ✅ **Handled missing values** by converting blanks to `NULL` and filling missing values using self joins
+- ✅ **Dropped unreliable rows/columns** to clean the dataset thoroughly
 
-1. Created a safe staging table to work on without touching original data
+---
 
-2. Found and removed duplicate records using SQL window functions (ROW_NUMBER) and CTEs
+## 🧠 Tools & Skills Used
 
-3. Cleaned and standardized text fields like company names, industries, and locations
+- **SQL (MySQL)** for data cleaning and manipulation  
+- **Techniques:**  
+  - Window Functions (`ROW_NUMBER()`)  
+  - CTEs (Common Table Expressions)  
+  - Text trimming & standardization  
+  - Date conversion  
+  - NULL handling and logic  
+- **GitHub** for version control and sharing project code
 
-4. Converted date fields from text to proper DATE type for better analysis
+---
 
-5. Handled NULLs and blanks, replacing blanks with NULLs and filling missing values where possible
+## 💡 What I Learned
 
-6. Dropped unnecessary or unreliable columns and rows to improve data quality
+- How to **clean messy real-world data** in SQL
+- How to **write clear, well-commented SQL scripts** step by step
+- How to prepare datasets for actual **EDA work** — not just theory
 
-
-
-##Tools & Skills Used
-
--SQL (MySQL) for data cleaning and manipulation
--Techniques: deduplication, text standardization, null handling
--GitHub for documenting and sharing code
-
-
-##What I Learned
-
--How to clean messy real-world data in SQL
--Writing clear, commented SQL scripts to explain every step
+---
 
 ## 📬 Contact Me
-- **LinkedIn**: Ruqaya Mohammed
-- URL: http://www.linkedin.com/in/ruqaya-sql
 
--Email: mm.rr12345.com@gmail.com 
+- **Name:** Ruqaya Mohammed  
+- **LinkedIn:** [ruqaya-sql](http://www.linkedin.com/in/ruqaya-sql)  
+- **Email:** mm.rr12345.com@gmail.com
+
+---
+
+> ⭐ This project is part of my data analyst portfolio. More coming soon!
